@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Administrador</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <h1>Página Principal</h1>
+    <div id="entradas">
+        <!-- Aquí se mostrarán las entradas agregadas -->
+    </div>
+    <h2>Agregar nueva entrada</h2>
+    <form onsubmit="event.preventDefault(); enviarFormulario();">
+       
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" required>
+
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" required></textarea>
+       
+        <label for="imagen">Imagen:</label>
+        <input type="file" id="imagen" accept="image/*" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer class="footer">
+        <p class="first">
+            Recetas Saludables - Tu fuente de inspiración para una alimentación balanceada y deliciosa.
+        </p>
+        <p class="first">
+            © 2023 Recetas Saludables. Todos los derechos reservados.
+        </p>
+        <p class="first">
+            Aviso legal | Política de privacidad | Términos y condiciones  
+        </p>  
+    </footer>
+
+    <script src="/scripts/add.js"></script>
+    
+</body>
+
+</html>

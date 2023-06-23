@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #dea565;
+    color: #fff;
+    padding: 20px;
+
+}
+
+header div {
+    background-color: #dea565;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+
+nav button {
+    padding: 100px;
+    margin-left: 100px;
+    text-align: justify;
+
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 100px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+
+#ensalada{
+    width: 30%;
+    height: 60%;
+    margin-left: 10%;
+}
+
+
+#salmon{
+    width: 30%;
+    height: 60%;
+    margin-left: 10%;
+}
+
+#wrap{
+    width: 30%;
+    height: 60%;
+    margin-left: 10%;
+}
+
+#smoothie{
+    width: 30%;
+    height: 60%;
+    margin-left: 10%;
+}
+
+#salmon-teriyaki{
+    width: 30%;
+    height: 60%;
+    margin-left: 10%;
+}
+
+
+.recipe1 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+    height: 20%;
+}
+
+
+.recipe2 {
+    background-color: #dea565;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+    height: 20%;
+}
+
+.recipe3 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+    height: 20%;
+}
+
+.recipe4 {
+    background-color: #dea565;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+    height: 20%;
+}
+
+.recipe5 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+    height: 20%;
+}
+
+
+.recipe h2 {
+    color: #333;
+}
+
+.recipe img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.recipe ul,
+.recipe ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.recipe li {
+    margin-bottom: 5px;
+}
+
+.recipe p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: block;
+    /* margin-top: 10px; */
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* .container-admin {
+    width: 300px;
+    height: 357px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} */
+
+.content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #dea565;
+    color: #020101;
+    padding: 10px;  
+}
+
+/* #login-button {
+    margin-top: 10px;
+
+} */
+
+/* .container-index{
+    height: 600px;
+
+
+} */
